@@ -1,6 +1,6 @@
 # Materias en Curso
 
-Este repositorio contiene las materias que se están dictando actualmente.  
+Este repositorio contiene las materias que se están dictando actualmente.
 Cada materia está organizada en unidades temáticas, y cada clase dentro de una unidad es un archivo en formato Markdown (`.md`).
 
 ## Materias incluidas
