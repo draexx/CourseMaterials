@@ -1,164 +1,428 @@
-¡Claro! A continuación, te presento un **plan detallado** para la **Unidad Temática 2: Fundamentos de Álgebra Básica**, dividido en **6 clases de 1 hora y 20 minutos** cada una. Este plan se basa en el contenido del syllabus y está diseñado para cubrir todos los temas de la unidad de manera progresiva y práctica.
+# Unidad Temática 2: Fundamentos de Álgebra Básica
 
----
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/deed.es)
 
-### **Unidad Temática 2: Fundamentos de Álgebra Básica**
+**Duración:** 6 clases de 1 hora y 20 minutos cada una
 
-#### **Objetivos generales de la unidad**:
-1. Comprender y manipular expresiones algebraicas.
-2. Resolver ecuaciones lineales y cuadráticas.
-3. Aplicar el álgebra en la resolución de problemas prácticos.
-4. Desarrollar habilidades de pensamiento lógico y crítico.
+## Tabla de Contenidos
 
----
+- [Objetivos](#objetivos)
+- [Clases](#clases)
+- [Evaluación](#evaluación)
+- [Recursos](#recursos)
+- [Licencia](#licencia)
 
-### **Plan de 6 clases**
+## Objetivos
 
----
+- Comprender y manipular expresiones algebraicas (25%)
+- Resolver ecuaciones lineales y cuadráticas (30%)
+- Aplicar el álgebra en la resolución de problemas prácticos (25%)
+- Desarrollar habilidades de pensamiento lógico y crítico (20%)
 
-#### **Clase 1: Introducción al Álgebra y Expresiones Algebraicas**  
-**Duración**: 1 hora 20 minutos  
-**Objetivos**:  
-- Comprender qué es el álgebra y su importancia en la informática.  
-- Identificar y manipular expresiones algebraicas básicas.  
+## Clases
 
-**Desarrollo**:  
-1. **Introducción (10 minutos)**:  
-   - Explicar qué es el álgebra y su relación con la informática (ejemplo: algoritmos, programación, optimización).  
-   - Mostrar ejemplos de expresiones algebraicas en código (ejemplo: `x = a + b * c`).  
+### Clase 1: Introducción al Álgebra y Expresiones Algebraicas
 
-2. **Expresiones algebraicas (20 minutos)**:  
-   - Definir términos, coeficientes, variables y constantes.  
-   - Ejemplos: \( 3x + 5 \), \( 2a^2 - 4b + 7 \).  
-   - Simplificación de expresiones algebraicas.  
+**Duración:** 1 hora 20 minutos
 
-3. **Actividad práctica (20 minutos)**:  
-   - Simplificar expresiones: \( 2x + 3x - x \), \( 4a^2 + 3a - 2a^2 \).  
-   - Identificar términos y coeficientes en expresiones dadas.  
+**Objetivos:**
+- Comprender qué es el álgebra y su importancia en la informática (30%)
+- Identificar y manipular expresiones algebraicas básicas (50%)
+- Aplicar conceptos en programación (20%)
 
-4. **Aplicación en informática (15 minutos)**:  
-   - Mostrar cómo se usan las expresiones algebraicas en programación (ejemplo: cálculos de distancias, fórmulas matemáticas).  
+**Desarrollo:**
+1. **Introducción (10 min)**
+   - Explicar qué es el álgebra y su relación con la informática
+   - Ejemplo práctico: algoritmos y programación
 
-5. **Cierre (5 minutos)**:  
-   - Resumen de conceptos clave.  
-   - Asignación: Investigar cómo se usan las expresiones algebraicas en un lenguaje de programación específico (Python, Java, etc.).  
+2. **Expresiones algebraicas (20 min)**
+   - **Definición:** Términos, coeficientes, variables y constantes
+   - **Ejemplos:**
+     \[
+     3x + 5, \quad 2a^2 - 4b + 7
+     \]
+   - **Simplificación:**
+     \[
+     2x + 3x - x = 4x
+     \]
 
----
+3. **Actividad práctica (20 min)**
+   - Simplificar expresiones:
+     \[
+     2x + 3x - x, \quad 4a^2 + 3a - 2a^2
+     \]
+   - Identificar términos y coeficientes
 
-#### **Clase 2: Operaciones con Expresiones Algebraicas**  
-**Duración**: 1 hora 20 minutos  
-**Objetivos**:  
-- Realizar operaciones básicas con expresiones algebraicas (suma, resta, multiplicación).  
+4. **Aplicación en programación (20 min)**
+   - Ejemplos en Python:
+     ```python
+     x = 3
+     y = 2 * x + 5
+     ```
+   - Cálculos de distancias y fórmulas
 
-**Desarrollo**:  
-1. **Repaso (10 minutos)**:  
-   - Repasar conceptos de la clase anterior (términos, coeficientes, simplificación).  
+5. **Cierre (10 min)**
+   - Resumen de conceptos
+   - Asignación: Implementar expresiones en Python
+   - Presentación de proyecto: Análisis de algoritmos
 
-2. **Suma y resta de expresiones (20 minutos)**:  
-   - Ejemplos: \( (3x + 5) + (2x - 3) \), \( (4a^2 + 3a) - (2a^2 - a) \).  
+**Materiales:**
+- Calculadora científica
+- Hojas de cálculo (Excel)
+- IDE de programación (Python)
+- Diagramas de algoritmos
 
-3. **Multiplicación de expresiones (20 minutos)**:  
-   - Multiplicación de monomios: \( 3x \cdot 2x \).  
-   - Multiplicación de polinomios: \( (x + 2)(x - 3) \).  
+**Recursos Adicionales:**
+- Teóricos:
+  - [Khan Academy - Álgebra](https://es.khanacademy.org/math/algebra)
+  - [Wolfram Alpha - Álgebra](https://www.wolframalpha.com/)
+- Prácticos:
+  - [Ejercicios de Álgebra](https://www.emathhelp.net/es/calculators/algebra-2/)
+  - [Python Tutor](https://pythontutor.com/)
+- Ejercicios:
+  - [Paul's Online Math Notes](https://tutorial.math.lamar.edu/)
+  - [GeoGebra - Álgebra](https://www.geogebra.org/)
 
-4. **Actividad práctica (20 minutos)**:  
-   - Resolver ejercicios de suma, resta y multiplicación de expresiones.  
+**Evaluación:**
+- Participación en ejercicios prácticos (30%)
+- Tareas semanales con problemas aplicados (30%)
+- Proyecto final: Análisis de algoritmos (40%)
 
-5. **Cierre (10 minutos)**:  
-   - Resumen de operaciones.  
-   - Asignación: Resolver 5 ejercicios de operaciones con expresiones algebraicas.  
+**Proyecto Integrador:**
+- Implementación de algoritmos en Python
+- Análisis de complejidad
+- Aplicación de expresiones algebraicas
 
----
+### Clase 2: Operaciones con Expresiones Algebraicas
 
-#### **Clase 3: Factorización de Expresiones Algebraicas**  
-**Duración**: 1 hora 20 minutos  
-**Objetivos**:  
-- Aprender a factorizar expresiones algebraicas.  
+**Duración:** 1 hora 20 minutos
 
-**Desarrollo**:  
-1. **Introducción (10 minutos)**:  
-   - Explicar qué es la factorización y su importancia en la simplificación de expresiones.  
+**Objetivos:**
+- Realizar operaciones básicas con expresiones algebraicas (40%)
+- Aplicar operaciones en programación (30%)
+- Desarrollar habilidades de simplificación (30%)
 
-2. **Factorización por factor común (20 minutos)**:  
-   - Ejemplos: \( 3x + 6 = 3(x + 2) \), \( 4a^2 - 8a = 4a(a - 2) \).  
+**Desarrollo:**
+1. **Repaso (10 min)**
+   - Conceptos de la clase anterior
+   - Ejemplos de simplificación
 
-3. **Factorización de trinomios (20 minutos)**:  
-   - Ejemplos: \( x^2 + 5x + 6 = (x + 2)(x + 3) \).  
+2. **Suma y resta (25 min)**
+   - **Ejemplos:**
+     \[
+     (3x + 5) + (2x - 3) = 5x + 2
+     \]
+   - **Aplicación:** Cálculo de distancias
 
-4. **Actividad práctica (20 minutos)**:  
-   - Factorizar expresiones dadas.  
+3. **Multiplicación (25 min)**
+   - **Monomios:**
+     \[
+     3x \cdot 2x = 6x^2
+     \]
+   - **Polinomios:**
+     \[
+     (x + 2)(x - 3) = x^2 - x - 6
+     \]
+   - **Aplicación:** Cálculo de áreas
 
-5. **Cierre (10 minutos)**:  
-   - Resumen de métodos de factorización.  
-   - Asignación: Factorizar 5 expresiones algebraicas.  
+4. **Actividad práctica (20 min)**
+   - Resolver ejercicios combinados
+   - Implementación en Python
+   - Ejemplos prácticos
 
----
+5. **Cierre (10 min)**
+   - Resumen de operaciones
+   - Asignación: Programa de operaciones
+   - Presentación de proyecto
 
-#### **Clase 4: Resolución de Ecuaciones Lineales**  
-**Duración**: 1 hora 20 minutos  
-**Objetivos**:  
-- Resolver ecuaciones lineales de una variable.  
+**Materiales:**
+- Calculadora científica
+- IDE de programación
+- Hojas de cálculo
+- Diagramas de operaciones
 
-**Desarrollo**:  
-1. **Introducción (10 minutos)**:  
-   - Explicar qué es una ecuación lineal y su aplicación en la informática (ejemplo: cálculos de tiempo, optimización).  
+**Recursos Adicionales:**
+- Teóricos:
+  - [Khan Academy - Operaciones](https://es.khanacademy.org/math/algebra)
+  - [Wikipedia - Álgebra](https://es.wikipedia.org/wiki/%C3%81lgebra)
+- Prácticos:
+  - [Calculadora de Álgebra](https://www.calculadora-algebra.com/)
+  - [Ejercicios de Operaciones](https://www.emathhelp.net/es/calculators/algebra-2/)
+- Ejercicios:
+  - [Paul's Online Math Notes](https://tutorial.math.lamar.edu/)
+  - [GeoGebra - Ejercicios](https://www.geogebra.org/)
 
-2. **Métodos de resolución (20 minutos)**:  
-   - Ejemplos: \( 2x + 3 = 7 \), \( 4a - 5 = 3a + 2 \).  
+**Evaluación:**
+- Participación en ejercicios prácticos (30%)
+- Tareas semanales con problemas aplicados (30%)
+- Proyecto final: Programa de operaciones (40%)
 
-3. **Actividad práctica (20 minutos)**:  
-   - Resolver ecuaciones lineales.  
+**Proyecto Integrador:**
+- Desarrollo de programa de operaciones
+- Análisis de eficiencia
+- Aplicación en cálculos prácticos
 
-4. **Aplicación en informática (15 minutos)**:  
-   - Mostrar cómo se resuelven ecuaciones en algoritmos (ejemplo: cálculo de rutas óptimas).  
+### Clase 3: Factorización de Expresiones Algebraicas
 
-5. **Cierre (5 minutos)**:  
-   - Resumen de métodos de resolución.  
-   - Asignación: Resolver 5 ecuaciones lineales.  
+**Duración:** 1 hora 20 minutos
 
----
+**Objetivos:**
+- Factorizar expresiones algebraicas (40%)
+- Aplicar factorización en programación (30%)
+- Desarrollar habilidades de simplificación (30%)
 
-#### **Clase 5: Resolución de Ecuaciones Cuadráticas**  
-**Duración**: 1 hora 20 minutos  
-**Objetivos**:  
-- Resolver ecuaciones cuadráticas usando factorización y fórmula general.  
+**Desarrollo:**
+1. **Introducción (10 min)**
+   - Importancia de la factorización
+   - Ejemplos prácticos
 
-**Desarrollo**:  
-1. **Introducción (10 minutos)**:  
-   - Explicar qué es una ecuación cuadrática y su forma general \( ax^2 + bx + c = 0 \).  
+2. **Factor común (25 min)**
+   - **Ejemplos:**
+     \[
+     3x + 6 = 3(x + 2)
+     \]
+   - **Aplicación:** Optimización de código
 
-2. **Resolución por factorización (20 minutos)**:  
-   - Ejemplos: \( x^2 + 5x + 6 = 0 \).  
+3. **Factorización de trinomios (25 min)**
+   - **Ejemplos:**
+     \[
+     x^2 + 5x + 6 = (x + 2)(x + 3)
+     \]
+   - **Aplicación:** Resolución de problemas
 
-3. **Fórmula general (20 minutos)**:  
-   - Explicar la fórmula \( x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \).  
+4. **Actividad práctica (20 min)**
+   - Ejercicios de factorización
+   - Implementación en Python
+   - Ejemplos prácticos
 
-4. **Actividad práctica (20 minutos)**:  
-   - Resolver ecuaciones cuadráticas.  
+5. **Cierre (10 min)**
+   - Resumen de métodos
+   - Asignación: Programa de factorización
+   - Presentación de proyecto
 
-5. **Cierre (10 minutos)**:  
-   - Resumen de métodos de resolución.  
-   - Asignación: Resolver 5 ecuaciones cuadráticas.  
+**Materiales:**
+- Calculadora científica
+- IDE de programación
+- Hojas de cálculo
+- Diagramas de factorización
 
----
+**Recursos Adicionales:**
+- Teóricos:
+  - [Khan Academy - Factorización](https://es.khanacademy.org/math/algebra)
+  - [Wikipedia - Factorización](https://es.wikipedia.org/wiki/Factorizaci%C3%B3n)
+- Prácticos:
+  - [Calculadora de Factorización](https://www.calculadora-factorizacion.com/)
+  - [Ejercicios de Factorización](https://www.emathhelp.net/es/calculators/algebra-2/)
+- Ejercicios:
+  - [Paul's Online Math Notes](https://tutorial.math.lamar.edu/)
+  - [GeoGebra - Ejercicios](https://www.geogebra.org/)
 
-#### **Clase 6: Aplicaciones del Álgebra en Informática**  
-**Duración**: 1 hora 20 minutos  
-**Objetivos**:  
-- Aplicar los conceptos de álgebra en problemas informáticos.  
+**Evaluación:**
+- Participación en ejercicios prácticos (30%)
+- Tareas semanales con problemas aplicados (30%)
+- Proyecto final: Programa de factorización (40%)
 
-**Desarrollo**:  
-1. **Introducción (10 minutos)**:  
-   - Repasar los temas vistos en la unidad.  
+**Proyecto Integrador:**
+- Desarrollo de programa de factorización
+- Análisis de eficiencia
+- Aplicación en problemas prácticos
 
-2. **Problemas prácticos (30 minutos)**:  
-   - Resolver problemas de optimización, cálculos de tiempo y recursos usando álgebra.  
+### Clase 4: Resolución de Ecuaciones Lineales
 
-3. **Actividad colaborativa (20 minutos)**:  
-   - Los estudiantes trabajan en grupos para resolver un problema informático usando álgebra.  
+**Duración:** 1 hora 20 minutos
 
-4. **Cierre (10 minutos)**:  
-   - Resumen de la unidad.  
-   - Asignación: Investigar una aplicación avanzada del álgebra en informática.  
+**Objetivos:**
+- Resolver ecuaciones lineales (40%)
+- Aplicar en problemas prácticos (30%)
+- Desarrollar habilidades de resolución (30%)
 
----
+**Desarrollo:**
+1. **Introducción (10 min)**
+   - Definición de ecuaciones lineales
+   - Ejemplos prácticos
+
+2. **Métodos de resolución (30 min)**
+   - Igualación
+   - Sustitución
+   - Reducción
+
+3. **Aplicación en programación (25 min)**
+   - Implementación en Python
+   - Ejemplos prácticos
+
+4. **Actividad práctica (20 min)**
+   - Resolver ecuaciones
+   - Implementar en código
+   - Ejemplos prácticos
+
+5. **Cierre (15 min)**
+   - Resumen de métodos
+   - Asignación: Programa de ecuaciones
+   - Presentación de proyecto
+
+**Materiales:**
+- Calculadora científica
+- IDE de programación
+- Hojas de cálculo
+- Diagramas de resolución
+
+**Recursos Adicionales:**
+- Teóricos:
+  - [Khan Academy - Ecuaciones](https://es.khanacademy.org/math/algebra)
+  - [Wikipedia - Ecuaciones Lineales](https://es.wikipedia.org/wiki/Ecuaci%C3%B3n_lineal)
+- Prácticos:
+  - [Calculadora de Ecuaciones](https://www.calculadora-ecuaciones.com/)
+  - [Ejercicios de Ecuaciones](https://www.emathhelp.net/es/calculators/algebra-2/)
+- Ejercicios:
+  - [Paul's Online Math Notes](https://tutorial.math.lamar.edu/)
+  - [GeoGebra - Ejercicios](https://www.geogebra.org/)
+
+**Evaluación:**
+- Participación en ejercicios prácticos (30%)
+- Tareas semanales con problemas aplicados (30%)
+- Proyecto final: Programa de ecuaciones (40%)
+
+**Proyecto Integrador:**
+- Desarrollo de programa de ecuaciones
+- Análisis de eficiencia
+- Aplicación en problemas prácticos
+
+### Clase 5: Ecuaciones Cuadráticas
+
+**Duración:** 1 hora 20 minutos
+
+**Objetivos:**
+- Resolver ecuaciones cuadráticas (40%)
+- Aplicar en problemas prácticos (30%)
+- Desarrollar habilidades de resolución (30%)
+
+**Desarrollo:**
+1. **Introducción (10 min)**
+   - Definición de ecuaciones cuadráticas
+   - Ejemplos prácticos
+
+2. **Métodos de resolución (30 min)**
+   - Factorización
+   - Fórmula general
+   - Completación de cuadrados
+
+3. **Aplicación en programación (25 min)**
+   - Implementación en Python
+   - Ejemplos prácticos
+
+4. **Actividad práctica (20 min)**
+   - Resolver ecuaciones
+   - Implementar en código
+   - Ejemplos prácticos
+
+5. **Cierre (15 min)**
+   - Resumen de métodos
+   - Asignación: Programa de ecuaciones
+   - Presentación de proyecto
+
+**Materiales:**
+- Calculadora científica
+- IDE de programación
+- Hojas de cálculo
+- Diagramas de resolución
+
+**Recursos Adicionales:**
+- Teóricos:
+  - [Khan Academy - Ecuaciones Cuadráticas](https://es.khanacademy.org/math/algebra)
+  - [Wikipedia - Ecuaciones Cuadráticas](https://es.wikipedia.org/wiki/Ecuaci%C3%B3n_cuadr%C3%A1tica)
+- Prácticos:
+  - [Calculadora de Ecuaciones](https://www.calculadora-ecuaciones.com/)
+  - [Ejercicios de Ecuaciones](https://www.emathhelp.net/es/calculators/algebra-2/)
+- Ejercicios:
+  - [Paul's Online Math Notes](https://tutorial.math.lamar.edu/)
+  - [GeoGebra - Ejercicios](https://www.geogebra.org/)
+
+**Evaluación:**
+- Participación en ejercicios prácticos (30%)
+- Tareas semanales con problemas aplicados (30%)
+- Proyecto final: Programa de ecuaciones (40%)
+
+**Proyecto Integrador:**
+- Desarrollo de programa de ecuaciones
+- Análisis de eficiencia
+- Aplicación en problemas prácticos
+
+### Clase 6: Sistemas de Ecuaciones
+
+**Duración:** 1 hora 20 minutos
+
+**Objetivos:**
+- Resolver sistemas de ecuaciones (40%)
+- Aplicar en problemas prácticos (30%)
+- Desarrollar habilidades de resolución (30%)
+
+**Desarrollo:**
+1. **Introducción (10 min)**
+   - Definición de sistemas de ecuaciones
+   - Ejemplos prácticos
+
+2. **Métodos de resolución (30 min)**
+   - Sustitución
+   - Igualación
+   - Reducción
+   - Matrices
+
+3. **Aplicación en programación (25 min)**
+   - Implementación en Python
+   - Ejemplos prácticos
+
+4. **Actividad práctica (20 min)**
+   - Resolver sistemas
+   - Implementar en código
+   - Ejemplos prácticos
+
+5. **Cierre (15 min)**
+   - Resumen de métodos
+   - Asignación: Programa de sistemas
+   - Presentación de proyecto final
+
+**Materiales:**
+- Calculadora científica
+- IDE de programación
+- Hojas de cálculo
+- Diagramas de resolución
+
+**Recursos Adicionales:**
+- Teóricos:
+  - [Khan Academy - Sistemas](https://es.khanacademy.org/math/algebra)
+  - [Wikipedia - Sistemas de Ecuaciones](https://es.wikipedia.org/wiki/Sistema_de_ecuaciones_lineales)
+- Prácticos:
+  - [Calculadora de Sistemas](https://www.calculadora-sistemas.com/)
+  - [Ejercicios de Sistemas](https://www.emathhelp.net/es/calculators/algebra-2/)
+- Ejercicios:
+  - [Paul's Online Math Notes](https://tutorial.math.lamar.edu/)
+  - [GeoGebra - Ejercicios](https://www.geogebra.org/)
+
+**Evaluación:**
+- Participación en ejercicios prácticos (30%)
+- Tareas semanales con problemas aplicados (30%)
+- Proyecto final: Programa de sistemas (40%)
+
+**Proyecto Integrador:**
+- Desarrollo de programa de sistemas
+- Análisis de eficiencia
+- Aplicación en problemas prácticos
+
+## Evaluación General
+
+- Participación en clase (30%)
+- Tareas semanales (30%)
+- Proyectos integradores (40%)
+
+## Recursos Generales
+
+- [Khan Academy - Matemáticas](https://es.khanacademy.org/math)
+- [Wolfram Alpha](https://www.wolframalpha.com/)
+- [GeoGebra](https://www.geogebra.org/)
+- [Desmos](https://www.desmos.com/)
+- [Paul's Online Math Notes](https://tutorial.math.lamar.edu/)
+- [Python Tutor](https://pythontutor.com/)
+
+## Licencia
+
+Este tema está licenciado bajo [Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.es).

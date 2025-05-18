@@ -1,96 +1,272 @@
-### **Planificación de la Unidad Temática 2: "Internet, Intranet y Extranet"**  
-**Duración:** 3 clases de 1 hora y 20 minutos cada una.  
+# Unidad Temática 2: Internet, Intranet y Extranet
 
----
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/deed.es)
 
-## **Clase 1: Conceptos de Internet, Intranet y Extranet**  
-**Objetivos:**  
-- Diferenciar entre Internet, Intranet y Extranet.  
-- Identificar casos de uso en entornos reales.  
+**Duración:** 3 clases de 1 hora 20 minutos cada una
 
-### **Contenidos:**  
-1. **Internet:**  
-   - **Definición:** Red global pública que interconecta redes usando TCP/IP.  
-   - **Ejemplo:** Navegación en Google, redes sociales, streaming.  
+## Tabla de Contenidos
 
-2. **Intranet:**  
-   - **Definición:** Red privada dentro de una organización (solo accesible para miembros).  
-   - **Ejemplo:** Sistema interno del Instituto TECBA (ej: plataforma de notas, archivos compartidos).  
+- [Objetivos](#objetivos)
+- [Clases](#clases)
+- [Evaluación](#evaluación)
+- [Recursos](#recursos)
+- [Licencia](#licencia)
 
-3. **Extranet:**  
-   - **Definición:** Parte de una Intranet extendida a usuarios externos autorizados (clientes, proveedores).  
-   - **Ejemplo:** Portal para estudiantes que muestra horarios y calificaciones (acceso con credenciales).  
+## Objetivos
 
-### **Metodología:**  
-- **Exposición teórica (30 min):**  
-  - Comparar con analogías:  
-    - *"Internet es como una ciudad abierta, Intranet es una oficina con llave, Extranet es la sala de visitas de esa oficina."*  
-- **Actividad práctica (40 min):**  
-  - **Análisis de casos:** Identificar ejemplos en el instituto (ej: Moodle = Intranet, sitio web público = Internet).  
-  - **Debate:** *"¿Qué pasaría si la Intranet del TECBA fuera pública?"* (Riesgos de seguridad).  
-- **Cierre (10 min):**  
-  - Resumen con esquema visual (diagrama de Venn: Internet/Intranet/Extranet).  
+- Diferenciar entre Internet, Intranet y Extranet (30%)
+- Comprender la segmentación de redes (30%)
+- Dominar sistemas distribuidos (40%)
 
----
+## Clases
 
-## **Clase 2: Segmentación de Red y DMZ**  
-**Objetivos:**  
-- Entender la segmentación de redes y su importancia en la seguridad.  
-- Comprender el rol de la DMZ (Zona Desmilitarizada).  
+### Clase 1: Conceptos de Internet, Intranet y Extranet
 
-### **Contenidos:**  
-1. **Segmentación de red:**  
-   - **Definición:** División de una red en subredes para mejorar seguridad/rendimiento.  
-   - **Ejemplo:** Separar redes administrativas y estudiantiles en el instituto.  
+**Duración:** 1 hora 20 minutos
 
-2. **DMZ (Zona Desmilitarizada):**  
-   - **Definición:** Subred aislada que aloja servicios públicos (ej: servidor web) para proteger la red interna.  
-   - **Ejemplo:** Sitio web del TECBA está en DMZ; la base de datos de notas está en la red interna.  
+**Objetivos:**
+- Diferenciar entre Internet, Intranet y Extranet (50%)
+- Identificar casos de uso en entornos reales (50%)
 
-### **Metodología:**  
-- **Exposición teórica (30 min):**  
-  - Diagrama de una red con DMZ (usar dibujo en pizarra o herramienta digital).  
-- **Actividad práctica (40 min):**  
-  - **Simulación en Packet Tracer:** Crear una red con DMZ (servidor web accesible desde Internet y otro interno no accesible).  
-  - **Pregunta clave:** *"¿Por qué el correo institucional no debería estar en la DMZ?"*  
-- **Cierre (10 min):**  
-  - Reflexión: *"¿Dónde ubicarías un servidor de videollamadas en la red del instituto?"*  
+**Desarrollo:**
 
----
+1. **Introducción (10 min)**
+   - Definición de Internet, Intranet y Extranet
+   - Importancia en la comunicación
+   - Ejemplo práctico: Redes institucionales
 
-## **Clase 3: Sistemas Distribuidos y Acceso a Servicios**  
-**Objetivos:**  
-- Entender cómo funcionan los sistemas distribuidos (cliente-servidor).  
-- Configurar servicios básicos en red.  
+2. **Internet (30 min)**
+   - **Características:**
+     \[
+     \text{Red global, pública, TCP/IP}
+     \]
+   - **Ejemplos:**
+     \[
+     \text{Google, redes sociales, streaming}
+     \]
+   - **Aplicación:** Navegación web
 
-### **Contenidos:**  
-1. **Sistemas distribuidos:**  
-   - **Definición:** Recursos compartidos en múltiples dispositivos (ej: nube, bancos de datos).  
-   - **Ejemplo:** Google Drive (archivos almacenados en servidores globales).  
+3. **Intranet (30 min)**
+   - **Características:**
+     \[
+     \text{Red privada, organizacional}
+     \]
+   - **Ejemplos:**
+     \[
+     \text{Sistemas internos, plataformas educativas}
+     \]
+   - **Aplicación:** Gestión institucional
 
-2. **Modo cliente-servidor:**  
-   - **Cliente:** Solicita servicios (ej: navegador web).  
-   - **Servidor:** Responde a solicitudes (ej: servidor Apache que aloja el sitio del TECBA).  
+4. **Extranet (30 min)**
+   - **Características:**
+     \[
+     \text{Red privada con acceso externo}
+     \]
+   - **Ejemplos:**
+     \[
+     \text{Portales de estudiantes, clientes}
+     \]
+   - **Aplicación:** Servicios externos
 
-### **Metodología:**  
-- **Exposición teórica (20 min):**  
-  - Comparar con un restaurante: *"El cliente (usuario) pide un plato (dato), el servidor (cocina) lo prepara y envía."*  
-- **Actividad práctica (50 min):**  
-  - **Configuración básica en XAMPP:**  
-    1. Instalar servidor Apache.  
-    2. Crear una página HTML simple y alojarla localmente.  
-    3. Verificar acceso desde otro PC en la misma red.  
-- **Cierre (10 min):**  
-  - Demostración: Mostrar la página web desde el servidor local.  
-  - Tarea: *"Investiga cómo Netflix usa sistemas distribuidos para transmitir películas."*  
+5. **Actividad Práctica (20 min)**
+   - Análisis de casos
+   - Identificación de redes
+   - Ejemplos prácticos
 
----
+6. **Cierre (15 min)**
+   - Resumen de conceptos
+   - Asignación: Análisis de redes
+   - Presentación de proyecto
 
-### **Evaluación y Recursos:**  
-- **Evaluación formativa:** Participación en simulaciones y debates.  
-- **Recursos:**  
-  - **Packet Tracer** (Cisco) para simulaciones de red.  
-  - **XAMPP** para prácticas de servidor web.  
-  - **Video:** *"Cómo funciona una DMZ"* (ej: [YouTube](https://www.youtube.com)).  
+**Materiales:**
+- Presentaciones digitales
+- Diagramas de redes
+- Ejemplos prácticos
+- Herramientas de simulación
 
-**Nota:** Adaptar ejemplos a infraestructuras tecnológicas disponibles en el instituto (ej: servidores reales usados en Telecomunicaciones).
+**Recursos Adicionales:**
+- Teóricos:
+  - [Cisco Networking Academy](https://www.netacad.com/courses/networking)
+  - [Wikipedia - Redes de Computadoras](https://es.wikipedia.org/wiki/Red_de_computadoras)
+- Prácticos:
+  - [Packet Tracer](https://www.netacad.com/courses/packet-tracer)
+  - [Cisco Netacad](https://www.netacad.com/learning/learning-activities)
+- Ejercicios:
+  - [GeeksforGeeks - Redes](https://www.geeksforgeeks.org/computer-networks/)
+  - [Cisco Netacad](https://www.netacad.com/learning/learning-activities)
+
+**Evaluación:**
+- Participación en ejercicios prácticos (30%)
+- Tareas semanales con problemas aplicados (30%)
+- Proyecto final: Análisis de redes (40%)
+
+**Proyecto Integrador:**
+- Análisis de redes institucionales
+- Configuración de topologías
+- Aplicación en problemas prácticos
+
+### Clase 2: Segmentación de Red y DMZ
+
+**Duración:** 1 hora 20 minutos
+
+**Objetivos:**
+- Entender la segmentación de redes (50%)
+- Comprender el rol de la DMZ (50%)
+
+**Desarrollo:**
+
+1. **Introducción (10 min)**
+   - Concepto de segmentación
+   - Importancia en seguridad
+   - Ejemplo práctico: Redes institucionales
+
+2. **Segmentación de Red (35 min)**
+   - **Conceptos:**
+     \[
+     \text{Subredes, VLANs, seguridad}
+     \]
+   - **Ejemplos:**
+     \[
+     \text{Redes administrativas, estudiantiles}
+     \]
+   - **Aplicación:** Configuración práctica
+
+3. **DMZ (35 min)**
+   - **Conceptos:**
+     \[
+     \text{Zona desmilitarizada, seguridad}
+     \]
+   - **Ejemplos:**
+     \[
+     \text{Servidores web, correo}
+     \]
+   - **Aplicación:** Configuración práctica
+
+4. **Actividad Práctica (20 min)**
+   - Simulación de redes
+   - Configuración de DMZ
+   - Ejemplos prácticos
+
+5. **Cierre (15 min)**
+   - Resumen de conceptos
+   - Asignación: Configuración de redes
+   - Presentación de proyecto
+
+**Materiales:**
+- Presentaciones digitales
+- Herramientas de simulación
+- Ejemplos de configuración
+- Diagramas de redes
+
+**Recursos Adicionales:**
+- Teóricos:
+  - [Cisco Networking Academy](https://www.netacad.com/courses/networking)
+  - [Wikipedia - DMZ](https://es.wikipedia.org/wiki/Zona_desmilitarizada)
+- Prácticos:
+  - [Packet Tracer](https://www.netacad.com/courses/packet-tracer)
+  - [Cisco Netacad](https://www.netacad.com/learning/learning-activities)
+- Ejercicios:
+  - [GeeksforGeeks - Redes](https://www.geeksforgeeks.org/computer-networks/)
+  - [Cisco Netacad](https://www.netacad.com/learning/learning-activities)
+
+**Evaluación:**
+- Participación en ejercicios prácticos (30%)
+- Tareas semanales con problemas aplicados (30%)
+- Proyecto final: Configuración de redes (40%)
+
+**Proyecto Integrador:**
+- Configuración de redes institucionales
+- Análisis de seguridad
+- Aplicación en problemas prácticos
+
+### Clase 3: Sistemas Distribuidos y Acceso a Servicios
+
+**Duración:** 1 hora 20 minutos
+
+**Objetivos:**
+- Entender sistemas distribuidos (50%)
+- Configurar servicios en red (50%)
+
+**Desarrollo:**
+
+1. **Introducción (10 min)**
+   - Concepto de sistemas distribuidos
+   - Importancia en redes
+   - Ejemplo práctico: Servicios web
+
+2. **Sistemas Distribuidos (35 min)**
+   - **Conceptos:**
+     \[
+     \text{Cliente-servidor, recursos}
+     \]
+   - **Ejemplos:**
+     \[
+     \text{Google Drive, Netflix}
+     \]
+   - **Aplicación:** Servicios web
+
+3. **Servicios en Red (35 min)**
+   - **Conceptos:**
+     \[
+     \text{HTTP, FTP, SSH}
+     \]
+   - **Ejemplos:**
+     \[
+     \text{Servidores web, archivos}
+     \]
+   - **Aplicación:** Configuración práctica
+
+4. **Actividad Práctica (20 min)**
+   - Configuración de servicios
+   - Simulación de redes
+   - Ejemplos prácticos
+
+5. **Cierre (15 min)**
+   - Resumen de conceptos
+   - Asignación: Configuración de servicios
+   - Presentación de proyecto
+
+**Materiales:**
+- Presentaciones digitales
+- Herramientas de simulación
+- Ejemplos de configuración
+- Diagramas de redes
+
+**Recursos Adicionales:**
+- Teóricos:
+  - [Cisco Networking Academy](https://www.netacad.com/courses/networking)
+  - [Wikipedia - Sistemas Distribuidos](https://es.wikipedia.org/wiki/Sistema_distribuido)
+- Prácticos:
+  - [Packet Tracer](https://www.netacad.com/courses/packet-tracer)
+  - [Cisco Netacad](https://www.netacad.com/learning/learning-activities)
+- Ejercicios:
+  - [GeeksforGeeks - Redes](https://www.geeksforgeeks.org/computer-networks/)
+  - [Cisco Netacad](https://www.netacad.com/learning/learning-activities)
+
+**Evaluación:**
+- Participación en ejercicios prácticos (30%)
+- Tareas semanales con problemas aplicados (30%)
+- Proyecto final: Configuración de servicios (40%)
+
+**Proyecto Integrador:**
+- Configuración de servicios web
+- Análisis de sistemas distribuidos
+- Aplicación en problemas prácticos
+
+## Evaluación General
+
+- Participación en clase (30%)
+- Tareas semanales (30%)
+- Proyectos integradores (40%)
+
+## Recursos Generales
+
+- [Cisco Networking Academy](https://www.netacad.com/courses/networking)
+- [Packet Tracer](https://www.netacad.com/courses/packet-tracer)
+- [Wireshark](https://www.wireshark.org/)
+- [GeeksforGeeks - Redes](https://www.geeksforgeeks.org/computer-networks/)
+- [Cisco Netacad](https://www.netacad.com/learning/learning-activities)
+
+## Licencia
+
+Este tema está licenciado bajo [Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.es).

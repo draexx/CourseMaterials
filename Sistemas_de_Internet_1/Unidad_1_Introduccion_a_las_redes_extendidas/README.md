@@ -1,63 +1,188 @@
-### **Planificación de Clases para la Unidad Temática 1: "Introducción a las redes extendidas"**
+# Unidad Temática 1: Introducción a las Redes Extendidas
 
-#### **Clase 1: Conceptos Básicos de Redes y Tipos de Redes**  
-**Duración:** 1 hora y 20 minutos  
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/deed.es)
 
-**Objetivos:**  
-- Comprender los conceptos fundamentales de redes de ordenadores.  
-- Identificar los diferentes tipos de redes según su tamaño y extensión.  
+**Duración:** 4 clases de 1 hora 20 minutos cada una
 
-**Contenidos:**  
-1. **Redes de ordenadores:**  
-   - Definición y propósito de las redes.  
-   - Componentes básicos (dispositivos, medios de transmisión, protocolos).  
-2. **Conceptos generales de redes:**  
-   - Comunicación entre dispositivos.  
-   - Topologías de red (estrella, anillo, malla, etc.).  
-3. **Tipos de redes según su tamaño y extensión:**  
-   - PAN (Red de Área Personal).  
-   - LAN (Red de Área Local).  
-   - WLAN (Red de Área Local Inalámbrica).  
-   - MAN (Red de Área Metropolitana).  
-   - WAN (Red de Área Amplia).  
+## Tabla de Contenidos
 
-**Metodología:**  
-- **Exposición teórica (30 min):** Presentación con apoyo visual (diapositivas o proyector).  
-- **Actividad práctica (30 min):**  
-  - Ejercicio grupal: Dibujar y comparar topologías de red en papel o usando herramientas digitales simples.  
-  - Discusión guiada: Identificar ejemplos reales de PAN, LAN, WLAN, MAN y WAN en el entorno educativo o local.  
-- **Cierre (20 min):** Resumen de conceptos clave y preguntas interactivas para reforzar el aprendizaje.  
+- [Objetivos](#objetivos)
+- [Clases](#clases)
+- [Evaluación](#evaluación)
+- [Recursos](#recursos)
+- [Licencia](#licencia)
 
----  
+## Objetivos
 
-#### **Clase 2: Direccionamiento IP y Enrutamiento**  
-**Duración:** 1 hora y 20 minutos  
+- Comprender los conceptos fundamentales de redes (30%)
+- Identificar tipos de redes y su aplicación (30%)
+- Dominar el direccionamiento IP y enrutamiento (40%)
 
-**Objetivos:**  
-- Entender el direccionamiento IP y su importancia en las redes.  
-- Comprender los principios básicos del enrutamiento.  
+## Clases
 
-**Contenidos:**  
-1. **Direccionamiento IP:**  
-   - Direcciones IPv4 e IPv6.  
-   - Clases de direcciones IP (públicas y privadas).  
-   - Máscara de subred.  
-2. **Enrutamiento:**  
-   - Concepto de ruta y gateway.  
-   - Funcionamiento básico de un router.  
+### Clase 1: Conceptos Básicos de Redes y Tipos de Redes
 
-**Metodología:**  
-- **Exposición teórica (30 min):** Explicación con ejemplos visuales (direcciones IP en redes domésticas o institucionales).  
-- **Actividad práctica (40 min):**  
-  - Simulación con Packet Tracer o herramienta similar: Configurar direcciones IP en dispositivos virtuales.  
-  - Ejercicio guiado: Calcular subredes simples y definir rutas básicas.  
-- **Cierre (10 min):** Resumen con énfasis en la aplicación práctica (ejemplo: "¿Por qué falla la conexión si la IP está mal configurada?").  
+**Duración:** 1 hora 20 minutos
 
-**Recursos:**  
-- Presentaciones digitales.  
-- Herramientas de simulación (Packet Tracer).  
-- Ejemplos de direcciones IP reales (ej: 192.168.1.1).  
+**Objetivos:**
+- Comprender los conceptos fundamentales de redes (50%)
+- Identificar los diferentes tipos de redes (50%)
 
----  
+**Desarrollo:**
+1. **Introducción (10 min)**
+   - Definición de redes
+   - Importancia en la comunicación
+   - Ejemplo práctico: Redes domésticas
 
-**Nota:** Ambas clases integran evaluación formativa mediante participación en actividades y preguntas clave al finalizar. Se recomienda asignar tareas opcionales, como investigar un caso de red local en su hogar o institución.
+2. **Redes de Ordenadores (30 min)**
+   - **Componentes:**
+     \[
+     \text{Dispositivos, medios, protocolos}
+     \]
+   - **Topologías:**
+     \[
+     \text{Estrella, anillo, malla}
+     \]
+   - **Aplicación:** Configuración básica
+
+3. **Tipos de Redes (30 min)**
+   - **Clasificación:**
+     \[
+     \text{PAN, LAN, WLAN, MAN, WAN}
+     \]
+   - **Características:**
+     \[
+     \text{Alcance, velocidad, uso}
+     \]
+   - **Aplicación:** Ejemplos reales
+
+4. **Actividad Práctica (20 min)**
+   - Ejercicios de topologías
+   - Identificación de redes
+   - Ejemplos prácticos
+
+5. **Cierre (15 min)**
+   - Resumen de conceptos
+   - Asignación: Análisis de redes
+   - Presentación de proyecto
+
+**Materiales:**
+- Presentaciones digitales
+- Diagramas de redes
+- Ejemplos prácticos
+- Herramientas de simulación
+
+**Recursos Adicionales:**
+- Teóricos:
+  - [Cisco Networking Academy](https://www.netacad.com/courses/networking)
+  - [Wikipedia - Redes de Computadoras](https://es.wikipedia.org/wiki/Red_de_computadoras)
+- Prácticos:
+  - [Packet Tracer](https://www.netacad.com/courses/packet-tracer)
+  - [Subnetting Calculator](https://www.subnet-calculator.com/)
+- Ejercicios:
+  - [Cisco Netacad](https://www.netacad.com/learning/learning-activities)
+  - [GeeksforGeeks - Redes](https://www.geeksforgeeks.org/computer-networks/)
+
+**Evaluación:**
+- Participación en ejercicios prácticos (30%)
+- Tareas semanales con problemas aplicados (30%)
+- Proyecto final: Análisis de redes (40%)
+
+**Proyecto Integrador:**
+- Análisis de redes domésticas
+- Configuración de topologías
+- Aplicación en problemas prácticos
+
+### Clase 2: Direccionamiento IP y Enrutamiento
+
+**Duración:** 1 hora 20 minutos
+
+**Objetivos:**
+- Entender el direccionamiento IP (50%)
+- Comprender el enrutamiento (50%)
+
+**Desarrollo:**
+1. **Introducción (10 min)**
+   - Concepto de dirección IP
+   - Importancia en redes
+   - Ejemplo práctico: Configuración doméstica
+
+2. **Direccionamiento IP (35 min)**
+   - **IPv4 vs IPv6:**
+     \[
+     \text{32 bits vs 128 bits}
+     \]
+   - **Clases de direcciones:}
+     \[
+     \text{Públicas y privadas}
+     \]
+   - **Máscara de subred:**
+     \[
+     \text{CIDR notation}
+     \]
+
+3. **Enrutamiento (35 min)**
+   - **Conceptos básicos:**
+     \[
+     \text{Ruta y gateway}
+     \]
+   - **Funcionamiento:**
+     \[
+     \text{Router y paquetes}
+     \]
+   - **Aplicación:** Configuración práctica
+
+4. **Actividad Práctica (20 min)**
+   - Ejercicios de configuración
+   - Simulación de redes
+   - Ejemplos prácticos
+
+5. **Cierre (15 min)**
+   - Resumen de conceptos
+   - Asignación: Problemas de configuración
+   - Presentación de proyecto
+
+**Materiales:**
+- Presentaciones digitales
+- Herramientas de simulación
+- Ejemplos de configuración
+- Diagramas de redes
+
+**Recursos Adicionales:**
+- Teóricos:
+  - [Cisco Networking Academy](https://www.netacad.com/courses/networking)
+  - [Wikipedia - Direccionamiento IP](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP)
+- Prácticos:
+  - [Packet Tracer](https://www.netacad.com/courses/packet-tracer)
+  - [Subnetting Calculator](https://www.subnet-calculator.com/)
+- Ejercicios:
+  - [Cisco Netacad](https://www.netacad.com/learning/learning-activities)
+  - [GeeksforGeeks - Redes](https://www.geeksforgeeks.org/computer-networks/)
+
+**Evaluación:**
+- Participación en ejercicios prácticos (30%)
+- Tareas semanales con problemas aplicados (30%)
+- Proyecto final: Configuración de redes (40%)
+
+**Proyecto Integrador:**
+- Configuración de redes domésticas
+- Análisis de direcciones IP
+- Aplicación en problemas prácticos
+
+## Evaluación General
+
+- Participación en clase (30%)
+- Tareas semanales (30%)
+- Proyectos integradores (40%)
+
+## Recursos Generales
+
+- [Cisco Networking Academy](https://www.netacad.com/courses/networking)
+- [Packet Tracer](https://www.netacad.com/courses/packet-tracer)
+- [Wireshark](https://www.wireshark.org/)
+- [Subnetting Calculator](https://www.subnet-calculator.com/)
+- [GeeksforGeeks - Redes](https://www.geeksforgeeks.org/computer-networks/)
+
+## Licencia
+
+Este tema está licenciado bajo [Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.es).

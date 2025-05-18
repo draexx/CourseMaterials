@@ -1,105 +1,308 @@
-### **Unidad Temática 3: Potenciación, Radicación y Logaritmos Algebraicos**  
-**Duración:** 4 clases de 1 hora 20 minutos cada una.  
-**Objetivos Generales:**  
-1. Dominar las propiedades de potenciación y radicación.  
-2. Resolver ecuaciones exponenciales y logarítmicas.  
-3. Aplicar estos conceptos en problemas de informática y ciencias.  
+# Unidad Temática 3: Potenciación, Radicación y Logaritmos Algebraicos
 
----
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/deed.es)
 
-## **Clase 1: Potenciación y sus Aplicaciones**  
-### **Temas y Ejercicios:**  
-1. **Definición y Propiedades de Potencias:**  
-   - \( a^n \cdot a^m = a^{n+m} \)  
-   - \( (a^n)^m = a^{n \cdot m} \)  
-   - \( a^{-n} = \frac{1}{a^n} \)  
+**Duración:** 4 clases de 1 hora 20 minutos cada una
 
-   **Ejercicio:**  
-   Simplificar \( (2x^2)^3 \cdot \frac{x^{-4}}{8x^2} \).  
-   **Solución:** \( 8x^6 \cdot \frac{1}{8x^6} = 1 \).  
+## Tabla de Contenidos
 
-2. **Aplicación en Informática:**  
-   - Cálculo de tamaños de memoria (ej: \( 2^{10} = 1024 \) bytes = 1 KB).  
+- [Objetivos](#objetivos)
+- [Clases](#clases)
+- [Evaluación](#evaluación)
+- [Recursos](#recursos)
+- [Licencia](#licencia)
 
-3. **Problema Práctico:**  
-   Un algoritmo tiene complejidad \( O(2^n) \). Si para \( n=5 \) tarda 32 segundos, ¿cuánto tardará para \( n=8 \)?  
-   **Solución:** \( 2^8 = 256 \) segundos.  
+## Objetivos
 
----
+- Dominar las propiedades de potenciación y radicación (30%)
+- Resolver ecuaciones exponenciales y logarítmicas (30%)
+- Aplicar estos conceptos en problemas de informática y ciencias (40%)
 
-## **Clase 2: Radicación y Racionalización**  
-### **Temas y Ejercicios:**  
-1. **Propiedades de Radicales:**  
-   - \( \sqrt[n]{a^m} = a^{m/n} \)  
-   - \( \sqrt[n]{a \cdot b} = \sqrt[n]{a} \cdot \sqrt[n]{b} \)  
+## Clases
 
-   **Ejercicio:**  
-   Simplificar \( \sqrt{50} + 3\sqrt{18} \).  
-   **Solución:** \( 5\sqrt{2} + 9\sqrt{2} = 14\sqrt{2} \).  
+### Clase 1: Potenciación y sus Aplicaciones
 
-2. **Racionalización:**  
-   - Racionalizar \( \frac{3}{\sqrt{5}} \).  
-   **Solución:** \( \frac{3\sqrt{5}}{5} \).  
+**Duración:** 1 hora 20 minutos
 
-3. **Aplicación en Geometría:**  
-   Calcular la diagonal de un cuadrado de lado \( \sqrt{8} \) cm.  
-   **Solución:** \( \sqrt{8} \cdot \sqrt{2} = 4 \) cm.  
+**Objetivos:**
+- Dominar las propiedades de potencias (40%)
+- Aplicar en problemas de informática (30%)
+- Desarrollar habilidades de simplificación (30%)
 
----
+**Desarrollo:**
+1. **Introducción (10 min)**
+   - Definición de potencias
+   - Ejemplos prácticos
 
-## **Clase 3: Logaritmos y sus Propiedades**  
-### **Temas y Ejercicios:**  
-1. **Definición y Propiedades:**  
-   - \( \log_b (a \cdot c) = \log_b a + \log_b c \)  
-   - \( \log_b \left(\frac{a}{c}\right) = \log_b a - \log_b c \)  
+2. **Propiedades de Potencias (30 min)**
+   - **Ejemplos:**
+     \[
+     a^n \cdot a^m = a^{n+m}, \quad (a^n)^m = a^{n \cdot m}, \quad a^{-n} = \frac{1}{a^n}
+     \]
+   - **Ejercicio:**
+     \[
+     (2x^2)^3 \cdot \frac{x^{-4}}{8x^2} = 1
+     \]
+   - **Aplicación:** Cálculo de tamaños de memoria
 
-   **Ejercicio:**  
-   Simplificar \( \log_2 (8x^3) \).  
-   **Solución:** \( 3 + 3\log_2 x \).  
+3. **Aplicación en Informática (25 min)**
+   - Complejidad algorítmica
+   - Ejemplo: Cálculo de tiempos de ejecución
 
-2. **Cambio de Base:**  
-   Calcular \( \log_5 100 \) usando \( \log_{10} \).  
-   **Solución:** \( \frac{\log_{10} 100}{\log_{10} 5} = \frac{2}{0.699} \approx 2.861 \).  
+4. **Actividad Práctica (20 min)**
+   - Ejercicios de simplificación
+   - Análisis de algoritmos
+   - Ejemplos prácticos
 
-3. **Aplicación en Informática:**  
-   Calcular el número de bits necesarios para representar 1000 valores.  
-   **Solución:** \( \log_2 1000 \approx 10 \) bits.  
+5. **Cierre (15 min)**
+   - Resumen de propiedades
+   - Asignación: Análisis de algoritmos
+   - Presentación de proyecto
 
----
+**Materiales:**
+- Calculadora científica
+- IDE de programación
+- Hojas de cálculo
+- Diagramas de algoritmos
 
-## **Clase 4: Ecuaciones Exponenciales y Logarítmicas**  
-### **Temas y Ejercicios:**  
-1. **Ecuaciones Exponenciales:**  
-   Resolver \( 3^{2x-1} = 27 \).  
-   **Solución:** \( 2x-1 = 3 \) → \( x = 2 \).  
+**Recursos Adicionales:**
+- Teóricos:
+  - [Khan Academy - Potencias](https://es.khanacademy.org/math/algebra)
+  - [Wikipedia - Potenciación](https://es.wikipedia.org/wiki/Potenciación)
+- Prácticos:
+  - [Calculadora de Potencias](https://www.calculadora-potencias.com/)
+  - [Ejercicios de Potencias](https://www.emathhelp.net/es/calculators/algebra-2/)
+- Ejercicios:
+  - [Paul's Online Math Notes](https://tutorial.math.lamar.edu/)
+  - [GeoGebra - Ejercicios](https://www.geogebra.org/)
 
-2. **Ecuaciones Logarítmicas:**  
-   Resolver \( \log_3 (x+2) + \log_3 x = 1 \).  
-   **Solución:** \( \log_3 [x(x+2)] = 1 \) → \( x^2 + 2x - 3 = 0 \) → \( x = 1 \) (descartar \( x=-3 \)).  
+**Evaluación:**
+- Participación en ejercicios prácticos (30%)
+- Tareas semanales con problemas aplicados (30%)
+- Proyecto final: Análisis de algoritmos (40%)
 
-3. **Problema Integrador:**  
-   Un virus informático se duplica cada hora (crecimiento exponencial \( N = N_0 \cdot 2^t \)). Si inicialmente hay 5 virus, ¿cuánto tardará en haber 320?  
-   **Solución:** \( 5 \cdot 2^t = 320 \) → \( t = 6 \) horas.  
+**Proyecto Integrador:**
+- Análisis de complejidad algorítmica
+- Implementación de cálculos exponenciales
+- Aplicación en problemas prácticos
 
----
+### Clase 2: Radicación y Racionalización
 
-### **Estrategias Didácticas por Clase**  
-| **Clase** | **Actividad Principal**           | **Recurso**                  | **Evaluación**                  |  
-|-----------|-----------------------------------|------------------------------|---------------------------------|  
-| 1         | Demostración interactiva          | Calculadoras científicas     | 5 ejercicios de simplificación  |  
-| 2         | Taller de racionalización         | GeoGebra para visualización  | Problema aplicado a geometría   |  
-| 3         | Discusión en grupos               | Hojas de trabajo impresas    | 3 problemas de logaritmos       |  
-| 4         | Resolución de problemas reales    | Plataforma en línea (Moodle) | Proyecto de crecimiento exponencial |  
+**Duración:** 1 hora 20 minutos
 
----
+**Objetivos:**
+- Dominar las propiedades de radicales (40%)
+- Aplicar en problemas prácticos (30%)
+- Desarrollar habilidades de racionalización (30%)
 
-### **Material Adicional**  
-- **Videos:** Tutoriales sobre leyes de exponentes y logaritmos.  
-- **Simuladores:** Herramientas para graficar funciones exponenciales.  
-- **Ejercicios Extra:**  
-  - Simplificar \( \frac{2^{n+3} - 2^{n+1}}{2^n} \). **Solución:** \( 6 \).  
-  - Resolver \( \log_2 (x^2 - 4) = 3 \). **Solución:** \( x = \pm 6 \).  
+**Desarrollo:**
+1. **Introducción (10 min)**
+   - Definición de radicales
+   - Ejemplos prácticos
 
----
+2. **Propiedades de Radicales (30 min)**
+   - **Ejemplos:**
+     \[
+     \sqrt[n]{a^m} = a^{m/n}, \quad \sqrt[n]{a \cdot b} = \sqrt[n]{a} \cdot \sqrt[n]{b}
+     \]
+   - **Ejercicio:**
+     \[
+     \sqrt{50} + 3\sqrt{18} = 14\sqrt{2}
+     \]
+   - **Aplicación:** Cálculo de distancias
 
-Esta planificación cubre teoría, práctica y aplicaciones, asegurando comprensión profunda y habilidades útiles para informática y matemáticas avanzadas.
+3. **Racionalización (25 min)**
+   - **Ejemplo:**
+     \[
+     \frac{3}{\sqrt{5}} = \frac{3\sqrt{5}}{5}
+     \]
+   - **Aplicación:** Simplificación de expresiones
+
+4. **Actividad Práctica (20 min)**
+   - Ejercicios de simplificación
+   - Problemas de geometría
+   - Ejemplos prácticos
+
+5. **Cierre (15 min)**
+   - Resumen de propiedades
+   - Asignación: Problemas de geometría
+   - Presentación de proyecto
+
+**Materiales:**
+- Calculadora científica
+- Hojas de cálculo
+- Diagramas de radicales
+- Problemas de geometría
+
+**Recursos Adicionales:**
+- Teóricos:
+  - [Khan Academy - Radicales](https://es.khanacademy.org/math/algebra)
+  - [Wikipedia - Radicación](https://es.wikipedia.org/wiki/Radicación)
+- Prácticos:
+  - [Calculadora de Radicales](https://www.calculadora-radicales.com/)
+  - [Ejercicios de Radicales](https://www.emathhelp.net/es/calculators/algebra-2/)
+- Ejercicios:
+  - [Paul's Online Math Notes](https://tutorial.math.lamar.edu/)
+  - [GeoGebra - Ejercicios](https://www.geogebra.org/)
+
+**Evaluación:**
+- Participación en ejercicios prácticos (30%)
+- Tareas semanales con problemas aplicados (30%)
+- Proyecto final: Problemas de geometría (40%)
+
+**Proyecto Integrador:**
+- Desarrollo de problemas geométricos
+- Análisis de eficiencia
+- Aplicación en problemas prácticos
+
+### Clase 3: Logaritmos y sus Propiedades
+
+**Duración:** 1 hora 20 minutos
+
+**Objetivos:**
+- Dominar las propiedades de logaritmos (40%)
+- Aplicar en problemas prácticos (30%)
+- Desarrollar habilidades de simplificación (30%)
+
+**Desarrollo:**
+1. **Introducción (10 min)**
+   - Definición de logaritmos
+   - Ejemplos prácticos
+
+2. **Propiedades de Logaritmos (30 min)**
+   - **Ejemplos:**
+     \[
+     \log_b (a \cdot c) = \log_b a + \log_b c, \quad \log_b \left(\frac{a}{c}\right) = \log_b a - \log_b c
+     \]
+   - **Ejercicio:**
+     \[
+     \log_2 (8x^3) = 3 + 3\log_2 x
+     \]
+   - **Aplicación:** Cálculo de bits
+
+3. **Cambio de Base (25 min)**
+   - **Ejemplo:**
+     \[
+     \log_5 100 = \frac{\log_{10} 100}{\log_{10} 5} \approx 2.861
+     \]
+   - **Aplicación:** Conversión de bases
+
+4. **Actividad Práctica (20 min)**
+   - Ejercicios de simplificación
+   - Problemas de representación
+   - Ejemplos prácticos
+
+5. **Cierre (15 min)**
+   - Resumen de propiedades
+   - Asignación: Problemas de representación
+   - Presentación de proyecto
+
+**Materiales:**
+- Calculadora científica
+- Hojas de cálculo
+- Diagramas de logaritmos
+- Problemas de representación
+
+**Recursos Adicionales:**
+- Teóricos:
+  - [Khan Academy - Logaritmos](https://es.khanacademy.org/math/algebra)
+  - [Wikipedia - Logaritmos](https://es.wikipedia.org/wiki/Logaritmo)
+- Prácticos:
+  - [Calculadora de Logaritmos](https://www.calculadora-logaritmos.com/)
+  - [Ejercicios de Logaritmos](https://www.emathhelp.net/es/calculators/algebra-2/)
+- Ejercicios:
+  - [Paul's Online Math Notes](https://tutorial.math.lamar.edu/)
+  - [GeoGebra - Ejercicios](https://www.geogebra.org/)
+
+**Evaluación:**
+- Participación en ejercicios prácticos (30%)
+- Tareas semanales con problemas aplicados (30%)
+- Proyecto final: Problemas de representación (40%)
+
+**Proyecto Integrador:**
+- Desarrollo de problemas de representación
+- Análisis de eficiencia
+- Aplicación en problemas prácticos
+
+### Clase 4: Ecuaciones Exponenciales y Logarítmicas
+
+**Duración:** 1 hora 20 minutos
+
+**Objetivos:**
+- Resolver ecuaciones exponenciales (40%)
+- Resolver ecuaciones logarítmicas (30%)
+- Aplicar en problemas prácticos (30%)
+
+**Desarrollo:**
+1. **Introducción (10 min)**
+   - Definición de ecuaciones exponenciales
+   - Ejemplos prácticos
+
+2. **Ecuaciones Exponenciales (30 min)**
+   - **Ejemplo:**
+     \[
+     3^{2x-1} = 27 \rightarrow x = 2
+     \]
+   - **Aplicación:** Crecimiento exponencial
+
+3. **Ecuaciones Logarítmicas (25 min)**
+   - **Ejemplo:**
+     \[
+     \log_3 (x+2) + \log_3 x = 1 \rightarrow x = 1
+     \]
+   - **Aplicación:** Problemas de crecimiento
+
+4. **Actividad Práctica (20 min)**
+   - Ejercicios de resolución
+   - Problemas de crecimiento
+   - Ejemplos prácticos
+
+5. **Cierre (15 min)**
+   - Resumen de métodos
+   - Asignación: Problemas de crecimiento
+   - Presentación de proyecto final
+
+**Materiales:**
+- Calculadora científica
+- Hojas de cálculo
+- Diagramas de ecuaciones
+- Problemas de crecimiento
+
+**Recursos Adicionales:**
+- Teóricos:
+  - [Khan Academy - Ecuaciones](https://es.khanacademy.org/math/algebra)
+  - [Wikipedia - Ecuaciones Exponenciales](https://es.wikipedia.org/wiki/Ecuaci%C3%B3n_exponencial)
+- Prácticos:
+  - [Calculadora de Ecuaciones](https://www.calculadora-ecuaciones.com/)
+  - [Ejercicios de Ecuaciones](https://www.emathhelp.net/es/calculators/algebra-2/)
+- Ejercicios:
+  - [Paul's Online Math Notes](https://tutorial.math.lamar.edu/)
+  - [GeoGebra - Ejercicios](https://www.geogebra.org/)
+
+**Evaluación:**
+- Participación en ejercicios prácticos (30%)
+- Tareas semanales con problemas aplicados (30%)
+- Proyecto final: Análisis de crecimiento (40%)
+
+**Proyecto Integrador:**
+- Desarrollo de problemas de crecimiento
+- Análisis de eficiencia
+- Aplicación en problemas prácticos
+
+## Evaluación General
+
+- Participación en clase (30%)
+- Tareas semanales (30%)
+- Proyectos integradores (40%)
+
+## Recursos Generales
+
+- [Khan Academy - Matemáticas](https://es.khanacademy.org/math)
+- [Wolfram Alpha](https://www.wolframalpha.com/)
+- [GeoGebra](https://www.geogebra.org/)
+- [Desmos](https://www.desmos.com/)
+- [Paul's Online Math Notes](https://tutorial.math.lamar.edu/)
+
+## Licencia
+
+Este tema está licenciado bajo [Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.es).

@@ -1,172 +1,492 @@
-### **Planificación de la Unidad Temática: Colas (Queues)**  
-**Duración:** 6 clases de 1 hora 20 minutos cada una  
-**Lenguaje:** Python  
-**Objetivo General:**  
-Al finalizar la unidad, los estudiantes dominarán la estructura de datos **cola** (FIFO), sus variantes y aplicaciones en problemas reales, implementando soluciones desde cero.  
+# Tema 3: Colas
 
----
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/deed.es)
 
-## **Clase 1: Introducción a Colas y Operaciones Básicas**  
-**Objetivos:**  
-- Comprender el principio FIFO (First In, First Out).  
-- Implementar una cola básica con listas en Python.  
+**Duración:** 6 clases de 1 hora 20 minutos cada una
+**Lenguaje:** Python
 
-**Contenidos:**  
-1. **Teoría:**  
-   - Definición de cola y analogías (ej: fila en un banco).  
-   - Operaciones: `enqueue` (encolar), `dequeue` (desencolar), `front` (frente), `is_empty`.  
-2. **Práctica:**  
-   - Implementación con listas:  
-     ```python  
-     cola = []  
-     cola.append(1)  # Enqueue  
-     cola.pop(0)     # Dequeue (ineficiente en listas grandes)  
-     ```  
-   - Ejercicio: Simular una fila de atención al cliente.  
+## Tabla de Contenidos
 
-**Tarea:** Implementar una cola que maneje errores (ej: desencolar cuando está vacía).  
+- [Objetivos](#objetivos)
+- [Clases](#clases)
+- [Evaluación](#evaluación)
+- [Recursos](#recursos)
+- [Licencia](#licencia)
 
----
+## Objetivos
 
-## **Clase 2: Colas Circulares y Eficiencia**  
-**Objetivos:**  
-- Entender las limitaciones de las listas estándar y la necesidad de colas circulares.  
-- Implementar una cola circular con arreglos.  
+- Implementar colas básicas (20%)
+- Manejar variantes de colas (30%)
+- Aplicar colas en problemas (30%)
+- Optimizar implementaciones (20%)
 
-**Contenidos:**  
-1. **Teoría:**  
-   - Problemas de rendimiento con `pop(0)` en listas.  
-   - Concepto de cola circular y aritmética modular.  
-2. **Práctica:**  
-   - Implementación de cola circular:  
-     ```python  
-     class ColaCircular:  
-         def __init__(self, capacidad):  
-             self.capacidad = capacidad  
-             self.cola = [None] * capacidad  
-             self.frente = self.final = -1  
-     ```  
-   - Ejercicio: Manejar desbordamiento (`overflow`) y subdesbordamiento (`underflow`).  
+## Clases
 
-**Tarea:** Medir el tiempo de ejecución de `dequeue` en lista vs. cola circular.  
+### Clase 1: Introducción a Colas y Operaciones Básicas
 
----
+**Duración:** 1 hora 20 minutos
 
-## **Clase 3: Colas de Prioridad**  
-**Objetivos:**  
-- Introducir colas de prioridad y su uso en algoritmos.  
-- Implementar con el módulo `heapq` de Python.  
+**Objetivos:**
+- Comprender principio FIFO (50%)
+- Implementar cola básica (50%)
 
-**Contenidos:**  
-1. **Teoría:**  
-   - Prioridades: mínimo o máximo primero.  
-   - Aplicaciones: sistemas de emergencia, planificación de procesos.  
-2. **Práctica:**  
-   - Uso de `heapq`:  
-     ```python  
-     import heapq  
-     cola_prioridad = []  
-     heapq.heappush(cola_prioridad, (prioridad, dato))  
-     heapq.heappop(cola_prioridad)  
-     ```  
-   - Ejercicio: Simular una sala de emergencias (prioridad por gravedad).  
+**Desarrollo:**
 
-**Tarea:** Implementar una cola de prioridad sin librerías externas.  
+1. **Introducción (10 min)**
+   - Concepto de cola
+   - Importancia en programación
+   - Ejemplo práctico: Fila de banco
 
----
+2. **Operaciones Básicas (35 min)**
+   - **Conceptos:}
+     \[
+     \text{enqueue, dequeue, front, is_empty}
+     \]
+   - **Características:}
+     \[
+     \text{FIFO, operaciones}
+     \]
+   - **Aplicación:** Ejemplos prácticos
 
-## **Clase 4: Colas en Algoritmos (BFS y Scheduling)**  
-**Objetivos:**  
-- Aplicar colas en BFS (Breadth-First Search) y planificación de procesos.  
+3. **Implementación en Python (35 min)**
+   - **Conceptos:}
+     \[
+     \text{listas, métodos}
+     \]
+   - **Ejemplo:}
+     \[
+     \text{cola = [], cola.append(1), cola.pop(0)}
+     \]
+   - **Aplicación:** Programación práctica
 
-**Contenidos:**  
-1. **Teoría:**  
-   - BFS en grafos: explicación visual.  
-   - Algoritmo Round Robin en sistemas operativos.  
-2. **Práctica:**  
-   - BFS con cola:  
-     ```python  
-     def bfs(grafo, inicio):  
-         visitados = set()  
-         cola = [inicio]  
-         while cola:  
-             nodo = cola.pop(0)  
-             for vecino in grafo[nodo]:  
-                 if vecino not in visitados:  
-                     cola.append(vecino)  
-                     visitados.add(vecino)  
-     ```  
-   - Ejercicio: Simular Round Robin con tiempos de CPU.  
+4. **Actividad Práctica (20 min)**
+   - Ejercicios con operaciones
+   - Simulación de fila
+   - Ejemplos prácticos
 
-**Tarea:** Resolver un laberinto usando BFS.  
+5. **Cierre (15 min)**
+   - Resumen de conceptos
+   - Asignación: Manejo de errores
+   - Presentación de proyecto
 
----
+**Materiales:**
+- Presentaciones digitales
+- Ejemplos de código
+- Diagramas de flujo
+- Ejercicios prácticos
 
-## **Clase 5: Colas en Sistemas Reales (Proyecto Parcial)**  
-**Objetivos:**  
-- Implementar un sistema de mensajería o buffer con colas.  
+**Recursos Adicionales:**
+- Teóricos:
+  - [GeeksforGeeks - Colas](https://www.geeksforgeeks.org/queue-data-structure/)
+  - [Wikipedia - Cola (informática)](https://es.wikipedia.org/wiki/Cola_(inform%C3%A1tica))
+  - [MDN Web Docs](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- Prácticos:
+  - [Repl.it](https://repl.it/languages/python3)
+  - [CodePen](https://codepen.io/)
+- Ejercicios:
+  - [LeetCode](https://leetcode.com/)
+  - [HackerRank](https://www.hackerrank.com/)
 
-**Contenidos:**  
-1. **Proyecto:**  
-   - Sistema de mensajes con colas FIFO y prioridad.  
-   - Ejemplo:  
-     ```python  
-     class SistemaMensajes:  
-         def __init__(self):  
-             self.cola_normal = []  
-             self.cola_urgente = []  
+**Evaluación:**
+- Participación en ejercicios prácticos (30%)
+- Tareas semanales con problemas aplicados (30%)
+- Proyecto final: Implementación de cola (40%)
 
-         def enviar_mensaje(self, mensaje, urgente=False):  
-             if urgente:  
-                 self.cola_urgente.append(mensaje)  
-             else:  
-                 self.cola_normal.append(mensaje)  
+**Proyecto Integrador:**
+- Implementación de cola
+- Manejo de errores
+- Aplicación en problemas prácticos
 
-         def procesar_mensaje(self):  
-             if self.cola_urgente:  
-                 return self.cola_urgente.pop(0)  
-             elif self.cola_normal:  
-                 return self.cola_normal.pop(0)  
-     ```  
-2. **Discusión:**  
-   - ¿Cómo manejar mensajes duplicados o expirados?  
+### Clase 2: Colas Circulares y Eficiencia
 
-**Tarea:** Añadir timestamp a los mensajes y descartar los antiguos.  
+**Duración:** 1 hora 20 minutos
 
----
+**Objetivos:**
+- Entender limitaciones de listas (50%)
+- Implementar cola circular (50%)
 
-## **Clase 6: Proyecto Integrador y Evaluación**  
-**Objetivos:**  
-- Implementar un sistema de gestión de tareas con colas y prioridades.  
-- Evaluar comprensión con ejercicios cronometrados.  
+**Desarrollo:**
 
-**Actividades:**  
-1. **Proyecto Final:**  
-   - Sistema de tareas con:  
-     - Cola general (FIFO).  
-     - Cola de prioridad (urgente/normal).  
-     - Función para procesar tareas en orden mixto.  
-2. **Evaluación:**  
-   - Ejercicio sorpresa: Implementar una cola doblemente terminada (`deque`) desde cero.  
-   - Preguntas teóricas: Diferencias entre cola, pila y lista.  
+1. **Introducción (10 min)**
+   - Problemas de rendimiento
+   - Importancia de eficiencia
+   - Ejemplo práctico: Buffer circular
 
-**Cierre:** Retroalimentación y aplicaciones en la industria (ej: Amazon SQS).  
+2. **Limitaciones de Listas (35 min)**
+   - **Conceptos:}
+     \[
+     \text{pop(0), complejidad}
+     \]
+   - **Análisis:}
+     \[
+     \text{O(n) vs O(1)}
+     \]
+   - **Aplicación:** Ejemplos prácticos
 
----
+3. **Implementación Circular (35 min)**
+   - **Conceptos:}
+     \[
+     \text{arreglos, índices}
+     \]
+   - **Ejemplo:}
+     \[
+     \text{cola_circular = [0]*n}
+     \]
+   - **Aplicación:** Programación práctica
 
-### **Evaluación Continua**  
-- **Participación en ejercicios:** 20%  
-- **Tareas semanales:** 30%  
-- **Proyecto parcial (Clase 5):** 20%  
-- **Proyecto final (Clase 6):** 30%  
+4. **Actividad Práctica (20 min)**
+   - Programación de cola circular
+   - Ejercicios de eficiencia
+   - Ejemplos prácticos
 
-### **Material Adicional**  
-- **Lecturas:**  
-  - [Colas en Python](https://docs.python.org/3/library/queue.html).  
-  - [Aplicaciones de BFS](https://www.geeksforgeeks.org/applications-of-breadth-first-traversal/).  
-- **Videos:**  
-  - [Cómo funcionan las colas en sistemas operativos](https://youtu.be/WgIi5ZgC0Xw).  
+5. **Cierre (15 min)**
+   - Resumen de conceptos
+   - Asignación: Optimización
+   - Presentación de proyecto
 
---- 
+**Materiales:**
+- Presentaciones digitales
+- Ejemplos de código
+- Diagramas de flujo
+- Ejercicios prácticos
 
-**¿Qué ajustes necesitarías para tu grupo?** 😊 ¿Más ejercicios de algoritmos o enfoque en aplicaciones prácticas?
+**Recursos Adicionales:**
+- Teóricos:
+  - [GeeksforGeeks - Colas Circulares](https://www.geeksforgeeks.org/circular-queue-set-1-introduction-array-implementation/)
+  - [Wikipedia - Buffer Circular](https://es.wikipedia.org/wiki/Buffer_circular)
+  - [MDN Web Docs](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- Prácticos:
+  - [Repl.it](https://repl.it/languages/python3)
+  - [CodePen](https://codepen.io/)
+- Ejercicios:
+  - [LeetCode](https://leetcode.com/)
+  - [HackerRank](https://www.hackerrank.com/)
+
+**Evaluación:**
+- Participación en ejercicios prácticos (30%)
+- Tareas semanales con problemas aplicados (30%)
+- Proyecto final: Cola circular (40%)
+
+**Proyecto Integrador:**
+- Desarrollo de cola circular
+- Análisis de eficiencia
+- Aplicación en problemas prácticos
+
+### Clase 3: Prioridades y Colas de Prioridad
+
+**Duración:** 1 hora 20 minutos
+
+**Objetivos:**
+- Implementar colas de prioridad (50%)
+- Aplicar en problemas prácticos (50%)
+
+**Desarrollo:**
+
+1. **Introducción (10 min)**
+   - Concepto de prioridad
+   - Importancia en programación
+   - Ejemplo práctico: Sistema de tickets
+
+2. **Colas de Prioridad (35 min)**
+   - **Conceptos:}
+     \[
+     \text{prioridades, ordenamiento}
+     \]
+   - **Implementación:}
+     \[
+     \text{min-heap, max-heap}
+     \]
+   - **Aplicación:** Ejemplos prácticos
+
+3. **Implementación Práctica (35 min)**
+   - **Conceptos:}
+     \[
+     \text{heapq, operaciones}
+     \]
+   - **Ejemplo:}
+     \[
+     \text{import heapq; cola = []}
+     \]
+   - **Aplicación:** Programación práctica
+
+4. **Actividad Práctica (20 min)**
+   - Programación de prioridades
+   - Ejercicios de ordenamiento
+   - Ejemplos prácticos
+
+5. **Cierre (15 min)**
+   - Resumen de conceptos
+   - Asignación: Sistema de tickets
+   - Presentación de proyecto
+
+**Materiales:**
+- Presentaciones digitales
+- Ejemplos de código
+- Diagramas de flujo
+- Ejercicios prácticos
+
+**Recursos Adicionales:**
+- Teóricos:
+  - [GeeksforGeeks - Colas de Prioridad](https://www.geeksforgeeks.org/priority-queue-in-python/)
+  - [Wikipedia - Cola de Prioridad](https://es.wikipedia.org/wiki/Cola_de_prioridad)
+  - [MDN Web Docs](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- Prácticos:
+  - [Repl.it](https://repl.it/languages/python3)
+  - [CodePen](https://codepen.io/)
+- Ejercicios:
+  - [LeetCode](https://leetcode.com/)
+  - [HackerRank](https://www.hackerrank.com/)
+
+**Evaluación:**
+- Participación en ejercicios prácticos (30%)
+- Tareas semanales con problemas aplicados (30%)
+- Proyecto final: Sistema de tickets (40%)
+
+**Proyecto Integrador:**
+- Desarrollo de sistema
+- Análisis de eficiencia
+- Aplicación en problemas prácticos
+
+### Clase 4: Colas Dobles y Aplicaciones
+
+**Duración:** 1 hora 20 minutos
+
+**Objetivos:**
+- Implementar colas dobles (50%)
+- Aplicar en problemas prácticos (50%)
+
+**Desarrollo:**
+
+1. **Introducción (10 min)**
+   - Concepto de cola doble
+   - Importancia en programación
+   - Ejemplo práctico: Buffer bidireccional
+
+2. **Colas Dobles (35 min)**
+   - **Conceptos:}
+     \[
+     \text{deque, operaciones}
+     \]
+   - **Implementación:}
+     \[
+     \text{collections.deque}
+     \]
+   - **Aplicación:** Ejemplos prácticos
+
+3. **Implementación Práctica (35 min)**
+   - **Conceptos:}
+     \[
+     \text{deque, métodos}
+     \]
+   - **Ejemplo:}
+     \[
+     \text{from collections import deque}
+     \]
+   - **Aplicación:** Programación práctica
+
+4. **Actividad Práctica (20 min)**
+   - Programación de deque
+   - Ejercicios de operaciones
+   - Ejemplos prácticos
+
+5. **Cierre (15 min)**
+   - Resumen de conceptos
+   - Asignación: Buffer bidireccional
+   - Presentación de proyecto
+
+**Materiales:**
+- Presentaciones digitales
+- Ejemplos de código
+- Diagramas de flujo
+- Ejercicios prácticos
+
+**Recursos Adicionales:**
+- Teóricos:
+  - [GeeksforGeeks - Deque](https://www.geeksforgeeks.org/deque-in-python/)
+  - [Wikipedia - Deque](https://es.wikipedia.org/wiki/Deque)
+  - [MDN Web Docs](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- Prácticos:
+  - [Repl.it](https://repl.it/languages/python3)
+  - [CodePen](https://codepen.io/)
+- Ejercicios:
+  - [LeetCode](https://leetcode.com/)
+  - [HackerRank](https://www.hackerrank.com/)
+
+**Evaluación:**
+- Participación en ejercicios prácticos (30%)
+- Tareas semanales con problemas aplicados (30%)
+- Proyecto final: Buffer bidireccional (40%)
+
+**Proyecto Integrador:**
+- Desarrollo de buffer
+- Análisis de eficiencia
+- Aplicación en problemas prácticos
+
+### Clase 5: Colas Multiples y Sistemas de Colas
+
+**Duración:** 1 hora 20 minutos
+
+**Objetivos:**
+- Implementar sistemas de colas (50%)
+- Aplicar en problemas prácticos (50%)
+
+**Desarrollo:**
+
+1. **Introducción (10 min)**
+   - Concepto de sistema de colas
+   - Importancia en programación
+   - Ejemplo práctico: Sistema de impresión
+
+2. **Sistemas de Colas (35 min)**
+   - **Conceptos:}
+     \[
+     \text{múltiples colas, sincronización}
+     \]
+   - **Implementación:}
+     \[
+     \text{threading, queues}
+     \]
+   - **Aplicación:** Ejemplos prácticos
+
+3. **Implementación Práctica (35 min)**
+   - **Conceptos:}
+     \[
+     \text{threading, Queue}
+     \]
+   - **Ejemplo:}
+     \[
+     \text{import threading; import queue}
+     \]
+   - **Aplicación:** Programación práctica
+
+4. **Actividad Práctica (20 min)**
+   - Programación de sistema
+   - Ejercicios de sincronización
+   - Ejemplos prácticos
+
+5. **Cierre (15 min)**
+   - Resumen de conceptos
+   - Asignación: Sistema de impresión
+   - Presentación de proyecto
+
+**Materiales:**
+- Presentaciones digitales
+- Ejemplos de código
+- Diagramas de flujo
+- Ejercicios prácticos
+
+**Recursos Adicionales:**
+- Teóricos:
+  - [GeeksforGeeks - Sistemas de Colas](https://www.geeksforgeeks.org/multi-threaded-implementation-of-producer-consumer-problem/)
+  - [Wikipedia - Sistema de Colas](https://es.wikipedia.org/wiki/Sistema_de_cola)
+  - [MDN Web Docs](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- Prácticos:
+  - [Repl.it](https://repl.it/languages/python3)
+  - [CodePen](https://codepen.io/)
+- Ejercicios:
+  - [LeetCode](https://leetcode.com/)
+  - [HackerRank](https://www.hackerrank.com/)
+
+**Evaluación:**
+- Participación en ejercicios prácticos (30%)
+- Tareas semanales con problemas aplicados (30%)
+- Proyecto final: Sistema de impresión (40%)
+
+**Proyecto Integrador:**
+- Desarrollo de sistema
+- Análisis de eficiencia
+- Aplicación en problemas prácticos
+
+### Clase 6: Proyecto Integrador y Evaluación
+
+**Duración:** 1 hora 20 minutos
+
+**Objetivos:**
+- Integrar conocimientos (50%)
+- Desarrollar proyecto final (50%)
+
+**Desarrollo:**
+
+1. **Introducción (10 min)**
+   - Concepto de proyecto
+   - Importancia en programación
+   - Ejemplo práctico: Sistema de tickets
+
+2. **Desarrollo del Proyecto (35 min)**
+   - **Conceptos:}
+     \[
+     \text{integración, aplicación}
+     \]
+   - **Ejemplos:}
+     \[
+     \text{sistema de tickets, buffer}
+     \]
+   - **Aplicación:** Desarrollo práctico
+
+3. **Evaluación del Proyecto (35 min)**
+   - **Conceptos:}
+     \[
+     \text{eficiencia, legibilidad}
+     \]
+   - **Criterios:}
+     \[
+     \text{funcionalidad, código}
+     \]
+   - **Aplicación:** Evaluación práctica
+
+4. **Actividad Práctica (20 min)**
+   - Mejoras al proyecto
+   - Optimización de código
+   - Ejemplos prácticos
+
+5. **Cierre (15 min)**
+   - Resumen de conceptos
+   - Presentación de proyectos
+   - Evaluación final
+
+**Materiales:**
+- Presentaciones digitales
+- Ejemplos de código
+- Diagramas de flujo
+- Ejercicios prácticos
+
+**Recursos Adicionales:**
+- Teóricos:
+  - [GeeksforGeeks - Proyectos](https://www.geeksforgeeks.org/data-structures-projects/)
+  - [Wikipedia - Mejores Prácticas](https://es.wikipedia.org/wiki/Mejores_pr%C3%A1cticas)
+  - [MDN Web Docs](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- Prácticos:
+  - [Repl.it](https://repl.it/languages/python3)
+  - [CodePen](https://codepen.io/)
+- Ejercicios:
+  - [LeetCode](https://leetcode.com/)
+  - [HackerRank](https://www.hackerrank.com/)
+
+**Evaluación:**
+- Participación en ejercicios prácticos (30%)
+- Tareas semanales con problemas aplicados (30%)
+- Proyecto final: Proyecto integrador (40%)
+
+**Proyecto Integrador:**
+- Desarrollo completo
+- Análisis de algoritmos
+- Aplicación en problemas prácticos
+
+## Evaluación General
+
+- Participación en clase (30%)
+- Tareas semanales (30%)
+- Proyectos integradores (40%)
+
+## Recursos Generales
+
+- [GeeksforGeeks](https://www.geeksforgeeks.org/data-structures/)
+- [MDN Web Docs](https://developer.mozilla.org/es/)
+- [LeetCode](https://leetcode.com/)
+- [HackerRank](https://www.hackerrank.com/)
+- [CodePen](https://codepen.io/)
+- [Repl.it](https://repl.it/languages/python3)
+
+## Licencia
+
+Este tema está licenciado bajo [Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.es).
